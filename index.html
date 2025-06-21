@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pranaya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Pranaya</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hi, I'm Pranaya</h2>
+    <p><span id="typing-text"></span></p>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I'm Pranaya, a 2nd year B.Tech Computer Science student with a growing passion for technology and programming.
+      Although I’m just starting out, I’m deeply curious about how things work and always eager to learn new concepts.
+      I love exploring new tools, writing clean code, and turning ideas into reality — one step at a time.
+    </p>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>My First Web Page</h3>
+      <p>A simple personal webpage created using HTML and CSS to explore web development basics.</p>
+    </div>
+    <div class="project">
+      <h3>Python Mini Programs</h3>
+      <p>Built basic Python applications like a calculator, number guessing game, and to-do list as practice projects.</p>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul>
+      <li>C</li>
+      <li>Python</li>
+      <li>HTML</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="contact-details">
+      <p><i class="fas fa-envelope"></i> <a href="mailto:pranayarajesh5@gmail.com">pranayarajesh5@gmail.com</a></p>
+      <p><i class="fas fa-phone"></i> <a href="tel:+919446367089">+91 94463 67089</a></p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/pranaya-r-12583935b/" target="_blank">linkedin.com/in/pranaya-r</a></p>
+    </div>
+
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pranaya R | 
+      <a href="mailto:pranayarajesh5@gmail.com">Email</a> | 
+      <a href="https://www.linkedin.com/in/pranaya-r-12583935b/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+
+</body>
+</html>
